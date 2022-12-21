@@ -357,9 +357,11 @@ p{
     position: relative;
     top: -648px;
     left: 529px;
-    width: 391px;
-    height: 78px;
-    border-radius: 20px;
+    width: 405px;
+    height: 84px;
+    border: none;
+    border-radius: 25px;
+    font-size: larger;
     background-color: white(250, 235, 215, 0.979);
     text-align: center;
     font-weight: bolder;
