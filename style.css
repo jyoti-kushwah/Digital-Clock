@@ -321,6 +321,7 @@ p{
     font-size: large;
     height: 48px;
     width: 65px;
+    font-weight: bold;
     background-color: #dbc7db;
     color: #410d94;
 }
@@ -342,6 +343,7 @@ p{
     font-size: large;
     height: 48px;
     width: 65px;
+    font-weight: bold;
     background-color: #dbc7db;
     color: #410d94;
 }
@@ -387,7 +389,7 @@ p{
     position: absolute;
     margin-left: 535px;
     margin-top: -625px;
-    background-image: url(./1b55bae1-327c-42d2-93c7-9efb2c3c2735.png);
+    background-image: url(./WhatsApp\ Image\ 2022-12-21\ at\ 11.49.29\ PM.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
