@@ -137,6 +137,7 @@
     width: 473px;
     border-radius: 25px;
     background-color: #6E54EC;
+    text-align: center;
     font-size: large;
     color: white;
     font-weight: bolder;
@@ -181,10 +182,11 @@
 }
 .alarm{
     position: relative;
-    top: -38px;
+    top: -51px;
     width: 210px;
     height: 88px;
     border: none;
+    text-align: center;
     background-color: #8E53F0;
     color:white;
     margin-left: 238px;
@@ -361,11 +363,15 @@ p{
     left: 529px;
     width: 405px;
     height: 84px;
+    /* align-items: center; */
     text-align: center;
+    /* text-align: center; */
     font-weight: bolder;
     border: none;
     border-radius: 25px;
+    color: #dbc7db;
     font-size: larger;
+    /* background-color: #5f45f1; */
     background-color: white(250, 235, 215, 0.979);
   
     color: #6E54EC;
@@ -389,7 +395,7 @@ p{
     border-radius: 10px;
     position: absolute;
     margin-left: 535px;
-    margin-top: -625px;
+    margin-top: -636px;
     background-image: url(./WhatsApp\ Image\ 2022-12-21\ at\ 11.49.29\ PM.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
