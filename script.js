@@ -22,6 +22,25 @@
         setTimeout(time,1000);
  }
  time();
+
+ function alarm(){
+  let img=document.getElementById("img")
+  let img1=document.getElementById("img1")
+  let img2=document.getElementById("img2")
+  let img3=document.getElementById("img3")
+
+  let img4=document.getElementById("img4")
+  let img5=document.getElementById("img5")
+  let img6=document.getElementById("img6")
+  let img7=document.getElementById("img7")
+
+  img4.innerHTML=img.value;
+  img5.innerHTML=img1.value;
+  img6.innerHTML=img2.value;
+  img7.innerHTML=img3.value;
+
+ }
+ document.getElementById("set").addEventListener("click",alarm)
  
 // if (hour === 0){
 //   hour = 12;
