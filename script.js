@@ -38,7 +38,7 @@
           let e=document.getElementById("test")
           e.innerText="CLOSE YOUR EYES AND GO TO SLEEP"
 
-          let f=document.getElementById("alarm")
+          let f=document.getElementById("alarm")   
           alarm.innerText="GOOD NIGHT !!"
 
           let g=document.getElementById("jyoti")
@@ -51,7 +51,7 @@
         }if(hour>12){
           hour = hour-12;
         }
-
+      
       
         document.getElementById("hh").innerText = hour;
         document.getElementById("mm").innerText = min;
