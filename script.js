@@ -15,7 +15,7 @@
         hour = hour - 12;
       }
       // if(hour>=12 && ampm === "AM"){
-        if(hour>12 && hour<=19 ){
+        if(hour<8 && hour>=4 && ampm === "PM" ){
           let a=document.getElementById("jyoti");
           a.style.backgroundImage="url('abc.jpeg')";
        
@@ -23,23 +23,23 @@
           test.innerText="STOP YAWMING GET SOME TEA.. ITS JUST EVENING"
 
           let b =document.getElementById("turn")
-          turn.innerText="GOOD EVENING !!"
-        }else if (hour>=12 && hour<=15){
+          b.innerText="GOOD EVENING !!"
+        }else if (hour<4 && ampm === "PM"){
           let test=document.getElementById("test")
           test.innerText="LET'S HAVE SOME LUNCH"
 
           let c=document.getElementById("turn")
-          turn.innerText="GOOD AFTERNOON !! AND TAKE SOME SLEEP"
+          c.innerText="GOOD AFTERNOON !! AND TAKE SOME SLEEP"
 
           let d=document.getElementById("jyoti")
-          d.style.backgroundImage="url('./lunchtime.png')";
+          d.style.backgroundImage="url('E:\prepbytes project\Digital Clock\lunch.jpeg')";
 
-        }else if(hour>=20 && hour<=23){
+        }else if(hour>1 && hour>=7 && hour <12 && ampm ==="AM"){
           let e=document.getElementById("test")
           e.innerText="CLOSE YOUR EYES AND GO TO SLEEP"
 
           let f=document.getElementById("turn")   
-          turn.innerText="GOOD NIGHT !!"
+          f.innerText="GOOD NIGHT !!"
 
           let g=document.getElementById("jyoti")
           g.style.backgroundImage="url('goodnigtht.png')"
