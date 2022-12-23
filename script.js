@@ -43,9 +43,8 @@
 
           let g=document.getElementById("jyoti")
           g.style.backgroundImage="url('goodnigtht.png')"
-        }else{
-          console.log('error')
-        }if(hour>=12){
+         }
+        if(hour>=12){
           ampm.innerHTML="PM"
         }else {
           ampm.innerHTML="AM"
