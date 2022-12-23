@@ -14,6 +14,14 @@
       if(hour >12){
         hour = hour - 12;
       }
+      if(hour>=12 && ampm === "AM"){
+          let a=document.getElementById("jyoti");
+          a.style.backgroundImage="url('abc.jpeg')";
+       
+          let test=document.getElementById("test") 
+          test.innerText="ITS CLOSE YOUR EYES AND GOT TO SLEEP "
+      }
+      
         document.getElementById("hh").innerText = hour;
         document.getElementById("mm").innerText = min;
         document.getElementById("ss").innerText = sec;
