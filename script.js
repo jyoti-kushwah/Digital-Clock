@@ -22,14 +22,14 @@
           let test=document.getElementById("test") 
           test.innerText="STOP YAWMING GET SOME TEA.. ITS JUST EVENING"
 
-          let b =document.getElementById("alarm")
-          alarm.innerText="GOOD EVENING !!"
+          let b =document.getElementById("turn")
+          turn.innerText="GOOD EVENING !!"
         }else if (hour>=12 && hour<=15){
           let test=document.getElementById("test")
           test.innerText="LET'S HAVE SOME LUNCH"
 
-          let c=document.getElementById("alarm")
-          alarm.innerText="GOOD AFTERNOON !!TAKE SOME SLEEP"
+          let c=document.getElementById("turn")
+          turn.innerText="GOOD AFTERNOON !! AND TAKE SOME SLEEP"
 
           let d=document.getElementById("jyoti")
           d.style.backgroundImage="url('./lunchtime.png')";
@@ -38,8 +38,8 @@
           let e=document.getElementById("test")
           e.innerText="CLOSE YOUR EYES AND GO TO SLEEP"
 
-          let f=document.getElementById("alarm")   
-          alarm.innerText="GOOD NIGHT !!"
+          let f=document.getElementById("turn")   
+          turn.innerText="GOOD NIGHT !!"
 
           let g=document.getElementById("jyoti")
           g.style.backgroundImage="url('goodnigtht.png')"
