@@ -413,6 +413,7 @@ p{
     height: 84px;
     /* align-items: center; */
     text-align: center;
+    justify-self: center;
     /* text-align: center; */
     font-weight: bolder;
     border: none;
