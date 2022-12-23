@@ -1,11 +1,12 @@
 // setInterval(time,1000);
 
  function  time(){
-    const times = new Date();
+    let  times = new Date();
     let  hour = times.getHours();
-    const  min = times.getMinutes();
+    let  min = times.getMinutes();
     let  sec = times.getSeconds();
-    let ampm = hour >= 12 ? "PM" : "AM";
+    let ap = "AM"
+    // let  ap= time.getHours() >= 12 ? "PM" : "AM";
     // document.getElementById("time").innerHTML=hour + ":" + min + ":"+ sec + ":" 
       //  setInterval(time,1000);
       if (hour === 0){
@@ -13,18 +14,34 @@
       }
       if(hour >12){
         hour = hour - 12;
+        ap = "PM"
       }
+      if(hour < 10){
+        hour = "0" + hour;
+      }
+      if(min < 10){
+        min = "0" + min;
+      }
+      if(sec < 10){
+        sec = "0" + sec;
+      }
+
       // if(hour>=12 && ampm === "AM"){
-        if(hour<8 && hour>=4 && ampm === "PM" ){
+        if(hour < 8 && hour >= 4 && ap === "PM" ){
+
+       
           let a=document.getElementById("jyoti");
           a.style.backgroundImage="url('abc.jpeg')";
        
-          let test=document.getElementById("test") 
-          test.innerText="STOP YAWMING GET SOME TEA.. ITS JUST EVENING"
+          let j=document.getElementById("test") 
+          j.innerText="STOP YAWMING GET SOME TEA.. ITS JUST EVENING"
 
           let b =document.getElementById("turn")
           b.innerText="GOOD EVENING !!"
-        }else if (hour<4 && ampm === "PM"){
+        }
+        
+        else if (hour < 4 && ap === "PM"){
+
           let test=document.getElementById("test")
           test.innerText="LET'S HAVE SOME LUNCH"
 
@@ -34,7 +51,9 @@
           let d=document.getElementById("jyoti")
           d.style.backgroundImage="url('E:\prepbytes project\Digital Clock\lunch.jpeg')";
 
-        }else if(hour>1 && hour>=7 && hour <12 && ampm ==="AM"){
+        }
+        
+        else if(hour > 11 && hour >= 8 && ap ==="PM"){
           let e=document.getElementById("test")
           e.innerText="CLOSE YOUR EYES AND GO TO SLEEP"
 
@@ -44,19 +63,29 @@
           let g=document.getElementById("jyoti")
           g.style.backgroundImage="url('goodnigtht.png')"
          }
-        if(hour>=12){
-          ampm.innerHTML="PM"
-        }else {
-          ampm.innerHTML="AM"
-        }if(hour>12){
-          hour = hour-12;
-        }
+         else if(hour > 1 && hour >= 7 && 12 && ap === "AM"){
+          let m=document.getElementById("test")
+          m.innerText = "GRAB SOME HEALTHY BREAKFAST";
+
+          let l= document.getElementById("jyoti") 
+          l.style.backgroundImage="url('./window.jpeg')"
+
+         let turn =document.getElementById("turn")
+          turn.innerText="GOOD MORINING !! WAKE UP !!";
+         }
+        // if(hour>=12){
+        //   ap.innerHTML="PM"
+        // }else {
+        //   ap.innerHTML="AM"
+        // }if(hour>12){
+        //   hour = hour-12;
+        // }
       
       
         document.getElementById("hh").innerText = hour;
         document.getElementById("mm").innerText = min;
         document.getElementById("ss").innerText = sec;
-        document.getElementById("ampm").innerHTML = ampm;
+        document.getElementById("ampm").innerHTML = ap;
 
         setTimeout(time,1000);
  }
