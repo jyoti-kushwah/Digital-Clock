@@ -14,13 +14,45 @@
       if(hour >12){
         hour = hour - 12;
       }
-      if(hour>=12 && ampm === "AM"){
+      // if(hour>=12 && ampm === "AM"){
+        if(hour>12 && hour<=19 ){
           let a=document.getElementById("jyoti");
           a.style.backgroundImage="url('abc.jpeg')";
        
           let test=document.getElementById("test") 
-          test.innerText="ITS CLOSE YOUR EYES AND GOT TO SLEEP "
-      }
+          test.innerText="STOP YAWMING GET SOME TEA.. ITS JUST EVENING"
+
+          let b =document.getElementById("alarm")
+          alarm.innerText="GOOD EVENING !!"
+        }else if (hour>=12 && hour<=15){
+          let test=document.getElementById("test")
+          test.innerText="LET'S HAVE SOME LUNCH"
+
+          let c=document.getElementById("alarm")
+          alarm.innerText="GOOD AFTERNOON !!TAKE SOME SLEEP"
+
+          let d=document.getElementById("jyoti")
+          d.style.backgroundImage="url('./lunchtime.png')";
+
+        }else if(hour>=20 && hour<=23){
+          let e=document.getElementById("test")
+          e.innerText="CLOSE YOUR EYES AND GO TO SLEEP"
+
+          let f=document.getElementById("alarm")
+          alarm.innerText="GOOD NIGHT !!"
+
+          let g=document.getElementById("jyoti")
+          g.style.backgroundImage="url('goodnigtht.png')"
+        }else{
+          console.log('error')
+        }if(hour>=12){
+          ampm.innerHTML="PM"
+        }else {
+          ampm.innerHTML="AM"
+        }if(hour>12){
+          hour = hour-12;
+        }
+
       
         document.getElementById("hh").innerText = hour;
         document.getElementById("mm").innerText = min;
