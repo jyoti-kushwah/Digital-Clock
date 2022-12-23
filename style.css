@@ -307,6 +307,13 @@ h1::after{
     margin-top: 30px;
     position: absolute;
   }
+  /* #time1 {
+    font-size: 29px;
+    margin-left: 547px;
+    color: #3d087b;
+    margin-top: -644px;
+    position: absolute;
+} */
  
  
 p{
@@ -327,6 +334,17 @@ p{
     background-color: #dbc7db;
     color: #410d94;
 }
+/* .hour {
+    position: relative;
+    top: -653px;
+    margin-left: 620px;
+    font-size: large;
+    height: 48px;
+    width: 65px;
+    font-weight: bold;
+    background-color: #dbc7db;
+    color: #410d94;
+} */
 .min {
     position: relative;
     top: -596px;
@@ -338,6 +356,17 @@ p{
     color: #410d94;
     font-weight: bold;
 }
+/* .min {
+    position: relative;
+    top: -650px;
+    margin-left: 14px;
+    height: 48px;
+    width: 78px;
+    font-size: large;
+    background-color: #dbc7db;
+    color: #410d94;
+    font-weight: bold;
+} */
 .sec {
     position: relative;
     top: -643px;
@@ -349,6 +378,17 @@ p{
     background-color: #dbc7db;
     color: #410d94;
 }
+/* .sec {
+    position: relative;
+    top: -699px;
+    margin-left: 787px;
+    font-size: large;
+    height: 48px;
+    width: 65px;
+    font-weight: bold;
+    background-color: #dbc7db;
+    color: #410d94;
+} */
 .am {
     position: relative;
     top: -690px;
@@ -357,6 +397,14 @@ p{
     width: 65px;
     background-image: linear-gradient(113deg,#6E54EC,#CB52F8,#FC5EFF);
 }
+/* .am {
+    position: relative;
+    top: -747px;
+    margin-left: 863px;
+    height: 47px;
+    width: 65px;
+    background-image: linear-gradient(113deg,#6E54EC,#CB52F8,#FC5EFF);
+} */
 .grab {
     position: relative;
     top: -648px;
