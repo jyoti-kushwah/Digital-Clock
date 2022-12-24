@@ -49,7 +49,7 @@
           c.innerText="GOOD AFTERNOON !! AND TAKE SOME SLEEP"
 
           let d=document.getElementById("jyoti")
-          d.style.backgroundImage="url('E:\prepbytes project\Digital Clock\lunch.jpeg')";
+          d.style.backgroundImage="url('lunch.jpeg')";
 
         }
         
