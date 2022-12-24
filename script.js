@@ -39,11 +39,11 @@
           let b =document.getElementById("turn")
           b.innerText="GOOD EVENING !!"
         }
-        
+      
         else if (hour < 4 && ap === "PM"){
 
-          let test=document.getElementById("test")
-          test.innerText="LET'S HAVE SOME LUNCH"
+          let p=document.getElementById("test")
+          p.innerText="LET'S HAVE SOME LUNCH"
 
           let c=document.getElementById("turn")
           c.innerText="GOOD AFTERNOON !! AND TAKE SOME SLEEP"
@@ -61,7 +61,7 @@
           f.innerText="GOOD NIGHT !!"
 
           let g=document.getElementById("jyoti")
-          g.style.backgroundImage="url('goodnigtht.png')"
+          g.style.backgroundImage="url('goodnight.png')"
          }
          else if(hour > 1 && hour >= 7 && 12 && ap === "AM"){
           let m=document.getElementById("test")
@@ -70,8 +70,8 @@
           let l= document.getElementById("jyoti") 
           l.style.backgroundImage="url('./window.jpeg')"
 
-         let turn =document.getElementById("turn")
-          turn.innerText="GOOD MORINING !! WAKE UP !!";
+         let s =document.getElementById("turn")
+          s.innerText="GOOD MORINING !! WAKE UP !!";
          }
         // if(hour>=12){
         //   ap.innerHTML="PM"
