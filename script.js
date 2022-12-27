@@ -72,13 +72,13 @@
         //  let s =document.getElementById("turn")
         //   s.innerText="GOOD MORINING !! WAKE UP !!";
          }
-        if(hour>=12){
-          ap.innerHTML="PM"
-        }else {
-          ap.innerHTML="AM"
-        }if(hour>12){
-          hour = hour-12;
-        }
+        // if(hour>=12){
+        //   ap.innerHTML="PM"
+        // }else {
+        //   ap.innerHTML="AM"
+        // }if(hour>12){
+        //   hour = hour-12;
+        // }
       
       
         document.getElementById("hh").innerText = hour;
@@ -92,7 +92,7 @@
  setInterval(time,1000);
 
  function makeTime(){
-  var  content = document.getElementById("wake")
+  var  content = document.getElementById("wake");
   var value = content.options[content.selectedIndex].text;
   document.getElementById("wakeupTime").innerHTML= value ;
 
@@ -121,7 +121,7 @@
   let hour = new Date().getHours();
   if( p == hour){
     document.getElementById("getup").innerText="GOOD MORNING !!  WAKE UP !!";
-    document.getElementById("jyoti").style.backgroundImage="url ('window.jpeg')";
+    document.getElementById("jyoti").style.backgroundImage="url('window.jpeg')";
   }
 
 
