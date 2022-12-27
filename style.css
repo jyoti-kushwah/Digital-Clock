@@ -451,9 +451,9 @@ h1::after{
   }
 .grab {
     position: relative;
-    top: 39px;
+    top: 35px;
     left: 542px;
-    width: 405px;
+    width: 437px;
     height: 84px;
     /* align-items: center; */
     text-align: center;
@@ -473,12 +473,12 @@ h1::after{
 
 .window {
     height: 270px;
-    width: 402px;
-    border-radius: 10px;
+    width: 426px;
+    border-radius: 16px;
     position: absolute;
     margin-left: 548px;
-    margin-top: 78px;
-    background-image: url(./window.jpeg);
+    margin-top: 60px;
+    background-image: url(./morning.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
