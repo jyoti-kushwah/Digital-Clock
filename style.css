@@ -234,7 +234,7 @@
     z-index: -1;
     opacity: 0.71;
   }
-  .time3 {
+.time3{
     border: none;
     width: 330px;
     height: 80px;
@@ -245,7 +245,7 @@
     border-radius: 10px;
     z-index: -2;
     opacity: 0.22;
-  }
+}
 
 .time1 {
     font-size: 29px;
