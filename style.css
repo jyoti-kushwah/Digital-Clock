@@ -136,10 +136,11 @@
     height: 61px;
     width: 473px;
     border-radius: 25px;
-    background-color: #6E54EC;
+    background-color: #e00000;
     text-align: center;
     font-size: large;
     color: white;
+    font-style: italic;
     font-weight: bolder;
 }
 .Button1{
@@ -164,7 +165,7 @@
     font-size: 20px;
     line-height: 24px;
     font-size: 20px;
-    background-image: linear-gradient(113deg, #6E54EC,#CB52F8);
+    background-image: linear-gradient(113deg, #1e088d,#a409dd);
     color: white;
 }
 .end{
@@ -189,7 +190,7 @@
     text-align: center;
     font-weight: bold;
     /* font-size: large; */
-    background-color: #ccc1dd;
+    background-color: #5e02e7;
     color:white;
     margin-left: 238px;
     margin: top -40px;
@@ -315,10 +316,10 @@
     border-radius: 25px;
     color: #dbc7db;
     font-size: larger;
-    /* background-color: #5f45f1; */
-    background-color: white(250, 235, 215, 0.979);
-  
-    color: #6E54EC;
+    font-weight: bolder;
+    background-color: blue;
+    font-style: italic;
+    color: #d7fd00;
 }
 
 
