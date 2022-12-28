@@ -86,9 +86,8 @@
         document.getElementById("ss").innerText = sec;
         document.getElementById("ampm").innerHTML = ap;
 
-        // setTimeout(time,1000);
  }
-//  time();
+
  setInterval(time,1000);
 
  function makeTime(){
@@ -113,29 +112,29 @@
 }
 
  function setAlarm(){
-  let p=document.getElementById("wake").value;
-  let q=document.getElementById("lunch").value;
-  let r=document.getElementById("nap").value;
-  let s=document.getElementById("night").value;
+  let w=document.getElementById("wake").value;
+  let x=document.getElementById("lunch").value;
+  let y=document.getElementById("nap").value;
+  let z=document.getElementById("night").value;
 
   let hour = new Date().getHours();
-  if( p == hour){
+  if( w == hour){
     document.getElementById("getup").innerText="GOOD MORNING !!  WAKE UP !!";
     document.getElementById("jyoti").style.backgroundImage="url('window.jpeg')";
   }
 
 
-  if(q == hour){
+  if(x == hour){
         document.getElementById("getup").innerText="GOOD AFTERNOON!! TAKE SOME SLEEP!!";
         document.getElementById("jyoti").style.backgroundImage="url('lunch.jpeg')";
   }
 
-  if(r == hour){
+  if(y == hour){
       document.getElementById("getup").innerText="GOOD EVENING!!";
       document.getElementById("jyoti").style.backgroundImage="url('goodevening.jpeg')";
    }
    
-   if(s == hour){
+   if(z == hour){
     document.getElementById("getup").innerText="GOOD NIGHT!!";
     document.getElementById("jyoti").style.backgroundImage="url('Nighttime.jpeg')";
 
