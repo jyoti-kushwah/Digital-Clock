@@ -156,32 +156,8 @@
   // img5.innerHTML=img1.value;
   // img6.innerHTML=img2.value;
   // img7.innerHTML=img3.value;
-
-
-  
-
  
 //  document.getElementById("set").addEventListener("click",alarm)
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // if (hour === 0){
 //   hour = 12;
